@@ -1,0 +1,22 @@
+{
+    "name": "calgus/flash",    
+    "type": "library",
+    "description": "Flash messages in session designed for Anax-MVC.",
+    "keywords": ["Flash messages", "flash", "session messages"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Calle Gustafsson",
+            "email": "calle.g@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Calgus\\": "src/" }
+    }
+}
+
