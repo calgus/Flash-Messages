@@ -118,10 +118,10 @@ class CFlashMessages
      */
     public function getSessionMessage()
     {
-        $messages = $this->session->get('flash');
-        $this->session->set('flash', []);
         $output = "<div class='flashmessages'>";
         if ($this->session->has('flash')) {
+            $messages = $this->session->get('flash');
+            $this->session->set('flash', []);
             foreach ($messages as $index => $value) {
                 $type = $value['type'];
                 $message = $value['message'];
@@ -133,7 +133,7 @@ class CFlashMessages
             }
         }
         $output .= "</div>";
-        return $output;      
+        return $output;     
     }
     
    /**
