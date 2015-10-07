@@ -11,7 +11,7 @@ Install using Packagist or clone code from Github:
 
 Add following text to apply flash in DI in your Anax MVC framework:
 ```
-$di->setShared('flash', function() use ($di) {
+$di->set('flash', function() use ($di) {
     $flash = new \Anax\Flash\CFlashBasic();
     $flash->setDI($di);
     return $flash;
@@ -20,7 +20,7 @@ $di->setShared('flash', function() use ($di) {
 
 Add following text to apply Flash Controller in DI in your Anax MVC framework:
 ```
-$di->setShared('FlashController', function() use ($di) {
+$di->set('FlashController', function() use ($di) {
     $flashController = new \Anax\Flash\FlashController();
     $flashController->setDI($di);
     return $flashController;
@@ -67,3 +67,10 @@ Get p tags with messages type and containing messages:
 $app->flash->getSessionMessage();
 ```
 Use $this instead of $app while inside DI classes and apps.
+
+## Detailed instructions.
+1. Copy flash-messages.php from webroot to your webroot folder.
+2. Copy src/FlashMessages folder to your src folder.
+3. Copy app/view/flash to your app/view folder.
+4. Copy webroot/css/flash.css to your webroot/css folder.
+5. Open flash-messages.php file in browser and enjoy.
