@@ -12,7 +12,7 @@ Install using Packagist or clone code from Github:
 Add following text to apply flash in DI in your Anax MVC framework:
 ```
 $di->set('flash', function() use ($di) {
-    $flash = new \Anax\Flash\CFlashBasic();
+    $flash = new \Anax\FlashMessages\CFlashBasic();
     $flash->setDI($di);
     return $flash;
 });
@@ -21,7 +21,7 @@ $di->set('flash', function() use ($di) {
 Add following text to apply Flash Controller in DI in your Anax MVC framework:
 ```
 $di->set('FlashController', function() use ($di) {
-    $flashController = new \Anax\Flash\FlashController();
+    $flashController = new \Anax\FlashMessages\FlashController();
     $flashController->setDI($di);
     return $flashController;
 });
