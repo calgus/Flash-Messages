@@ -1,12 +1,12 @@
 <?php
 
-namespace Anax\Flash;
+namespace Anax\FlashMessages;
 
 /**
  * Store messages for flashing them to the user as user feedback.
  *
  */
-class CFlashBasic
+class CFlashMessages
 {
     use \Anax\DI\TInjectable;
     
@@ -121,14 +121,16 @@ class CFlashBasic
         $messages = $this->session->get('flash');
         $this->session->set('flash', []);
         $output = "<div class='flashmessages'>";
-        foreach ($messages as $index => $value) {
-            $type = $value['type'];
-            $message = $value['message'];
-            $output .= "<p class='{$type} messages'>";
-            $output .= $type;
-            $output .= ": ";
-            $output .= $message;
-            $output .= "</p>";
+        if ($this->session->has('flash')) {
+            foreach ($messages as $index => $value) {
+                $type = $value['type'];
+                $message = $value['message'];
+                $output .= "<p class='{$type} messages'>";
+                $output .= $type;
+                $output .= ": ";
+                $output .= $message;
+                $output .= "</p>";
+            }
         }
         $output .= "</div>";
         return $output;      

@@ -12,14 +12,14 @@ $di  = new \Anax\DI\CDIFactoryDefault();
 
 // Set FlashMessages in DI.
 $di->set('flash', function() use ($di) {
-    $flash = new \Anax\Flash\CFlashBasic();
+    $flash = new \Anax\FlashMessages\CFlashMessages();
     $flash->setDI($di);
     return $flash;
 });
 
 // Set FlashController in DI.
 $di->set('FlashController', function() use ($di) {
-    $flashController = new \Anax\Flash\FlashController();
+    $flashController = new \Anax\FlashMessages\FlashController();
     $flashController->setDI($di);
     return $flashController;
 });

@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\Flash;
+namespace Anax\FlashMessages;
 
 /**
  * To attach flash comments to a page/content in post format and check message sent.
