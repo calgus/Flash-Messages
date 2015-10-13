@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1444751067">
+  <project timestamp="1444751067">
+    <package name="Mos\Mumin">
+      <file name="D:\Python\Cygdrive\home\Non\dbwebb-kurser\testFlash\FlashMessages\test/FlashMessages/CFlashMessagesTest.php">
+        <class name="CFlashMessagesTest" namespace="Mos\Mumin">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="18" type="method" name="testGetNameFromSession" crap="2" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="24" type="method" name="anonymous function" crap="1" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <metrics loc="43" ncloc="31" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="20" coveredelements="20"/>
+      </file>
+    </package>
+    <file name="D:\Python\Cygdrive\home\Non\dbwebb-kurser\testFlash\FlashMessages\test/config.php">
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <metrics loc="14" ncloc="6" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="57" ncloc="37" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="18" elements="24" coveredelements="20"/>
+  </project>
+</coverage>

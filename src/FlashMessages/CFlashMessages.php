@@ -144,7 +144,6 @@ class CFlashMessages
      */
     public function getSessionMessageClean()
     {
-        $output = null;
         $messages = $this->session->get('flash');
         $this->session->set('flash', []);
         return $messages;      
