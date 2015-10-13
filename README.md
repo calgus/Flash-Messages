@@ -1,4 +1,7 @@
 # Flash message in session module to be used by Anax MVC
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/calgus/Flash-Messages/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/calgus/Flash-Messages/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/calgus/Flash-Messages/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/calgus/Flash-Messages/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/calgus/Flash-Messages/badges/build.png?b=master)](https://scrutinizer-ci.com/g/calgus/Flash-Messages/build-status/master)
 
 Saves messages in session and pulls them from session to be displayed. Used in conjunction with Anax-MVC
 
