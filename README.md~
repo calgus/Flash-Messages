@@ -4,7 +4,7 @@ Saves messages in session and pulls them from session to be displayed. Used in c
 
 ## Installation
 
-Install using Packagist or clone code from Github source:
+Install using Packagist or clone code from Github:
 ```
 "calgus/flash": "dev-master"
 ```
