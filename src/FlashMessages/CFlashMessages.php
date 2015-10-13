@@ -102,7 +102,7 @@ class CFlashMessages
    /**
      * Get the message.
      *
-     * @return void
+     * @return string
      *
      */
     public function getMessage()
@@ -113,7 +113,7 @@ class CFlashMessages
    /**
      * Get the session messages.
      *
-     * @return html block with output from session messages.
+     * @return string block with output from session messages.
      *
      */
     public function getSessionMessage()
