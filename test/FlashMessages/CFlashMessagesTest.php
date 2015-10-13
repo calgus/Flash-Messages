@@ -1,6 +1,6 @@
 <?php
 
-namespace Mos\Mumin;
+namespace Anax\FlashMessages;
 
 /**
  * A testclass
@@ -77,6 +77,10 @@ class CFlashMessagesTest extends \PHPUnit_Framework_TestCase
                 $output .= "</p>";
         }    
         $output .= "</div>";
+        $flash->errorMessage($message);
+        $flash->warningMessage($message);
+        $flash->noticeMessage($message);
+        $flash->successMessage($message);
         $name2 = $flash->getSessionMessage();
         $this->assertEquals($output, $name2, "Form element value missmatch, method.");
     }
